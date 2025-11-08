@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.termometro{
+    list-style: none;
+    width: 120px;
+    height: 300px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.termometro li{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cero{
+  background-color: #0000cc;
+}
+.cinco{
+    background-color: #004de6;
+}
+.diez{
+    background-color: #0055ff;
+}
+.quince{
+    background-color: #00e6e6;
+}
+.veinte{
+    background-color:#00e673;
+}
+.veinticinco{
+    background-color:#73e600;
+}
+.treinta{
+    background-color:#ffff00;
+}
+.treintaycinco{
+    background-color: #ff8000;
+}
+.cuarenta{
+    background-color: #ff2b00;
+}
+.cincuenta{
+    background-color: #e60000;
+}

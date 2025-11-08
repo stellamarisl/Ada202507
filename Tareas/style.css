@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 12px;
+}
+.contenedor{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.tarea-uno,
+.tarea-dos,
+.tarea-tres,
+.tarea-cuatro,
+.tarea-cinco,
+.tarea-seis{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.pendiente,
+.haciendo,
+.hecha,
+.cancelada{
+    width: 90px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pendiente{
+    background-color: blue;
+    color: white;
+}
+
+.haciendo,
+.cancelada{
+    color: black;
+}
+.haciendo{
+    background-color: orange;
+}
+.hecha{
+    background-color: green;
+    color: white;
+}
+.cancelada{
+    background-color: red;
+}

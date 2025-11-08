@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.manzana{
+    color: red;
+}
+.banana{
+    color: yellow;
+}
+.naranja{
+    color: orange;
+}
+.tomate{
+    color: red;
+}
+.uva{
+    color: purple;
+}
+.ciruela{
+    color: rgb(49, 2, 49)
+}
+.kiwi{
+    color: rgb(41, 77, 41);
+}
+.melon{
+    color: rgb(255, 192, 203);
+}
+.coco{
+    color: brown;
+}
