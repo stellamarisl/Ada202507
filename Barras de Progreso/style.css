@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.barra{
+    width: 500px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 100px;
+    padding: 3px;
+    margin: 10px 0;
+}
+.progreso{
+    height: 100%;
+    border-radius: 100px;
+}
+.uno .progreso{
+    width: 10%;
+    background-color: #f44336;
+}
+.dos .progreso{
+    width: 25%;
+    background-color: #ff9800;
+}
+.tres .progreso{
+    width: 50%;
+    background-color: #ffeb3b;
+}
+.cuatro .progreso{
+    width: 75%;
+    background-color: #4caf50;
+}
+.cinco .progreso{
+    width: 90%;
+    background-color: #2196f3;
+}

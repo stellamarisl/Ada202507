@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0BD2C6;
+    font-family: Poppins, sans-serif;
+}
+.contenedor{
+    width: 332px;
+    height: 296px;
+    border-radius: 20px;
+    background-color: white;
+}
+.Primer-titulo{
+    font-weight:  bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(32,33,66);
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 20px;
+}
+.boton{
+    width: 60px;
+    height: 23px;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #a8abb8;
+    border: 1px solid #e7edff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.tarjeta-uno,
+.tarjeta-dos,
+.tarjeta-tres{
+    width: 260px;
+    height: 56px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 15px;
+    justify-content: center;
+    gap: 10px;
+    border-color: #f6f8ff;
+    border-style: solid;
+}
+.tarjeta-uno{
+    border-left: #f85e99 4px solid;
+}
+.tarjeta-dos{
+    border-left: #D98FFF 4px solid;
+}
+.tarjeta-tres{
+    border-left: #ffa378 4px solid;
+}
+.courses{
+    color: #7a8092
+}
+

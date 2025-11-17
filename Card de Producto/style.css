@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eeeeee;
+    color: white;
+}
+.card-producto{
+    width: 598px;
+    height: 912px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.6);
+    background-color: black;
+}
+.contenedor-img{
+    width: 596px;
+    height: 332px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.casco{
+    width: 200px;
+    height: 210px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 30px ;
+    color: #fafafa;
+}
+h2{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(255, 255 , 255);
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 28px;
+    width: auto;
+    display: flex;
+    gap: 20px;
+}
+.boton-uno,
+.boton-dos,
+.boton-tres{
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(255, 255 , 255);
+    border-radius: 15px;
+    border: 1px solid red;
+    padding: 8px;
+}
+.detalle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+    gap: 26px;
+}
+.detalle p{
+    width: 509px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.operacion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+}
+.operacio p{
+    font-size: 12px;
+    font-weight: 700;
+}
+.operacion h3{
+    font-size: 32px;
+    font-weight: 300;
+}
+.comprar{
+    width: 198px;
+    height: 45px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
