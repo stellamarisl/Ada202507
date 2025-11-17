@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roboto{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    font-family: "Roboto",sans-serif;
+    background-color: black;
+    color: #fafafa;
+}
+h1{
+    font-weight: 800;
+    font-size: 120px;
+}
+p{
+    font-size: 48px;
+    font-weight: 600;
+}
+.nombre{
+    color: coral;
+}
+.ocupacion{
+    color: chartreuse;
+}
+.ocupacion-dos{
+    color: crimson;
+}
