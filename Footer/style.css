@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 42px;
+    
+}
+h2{
+    margin-left: 45px;
+}
+.contenedor-grande{
+    width: 916px;
+    height: 679px;
+    background-color: #f7f8fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+    margin-left: 45px;
+    border-radius: 15px;
+}
+.contenedor-chico{
+    width: 828px;
+    height: 343px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contenedor-logo{
+    width: 256px;
+    height: 21px;
+}
+.interior-logo{
+    width: 256px;
+    height: 205px;
+    margin-top: 46px;
+    margin-right: 40px;
+}
+.icono-flow{
+    width: 16px;
+    height: 16px;
+    margin-top: 5px;
+}
+.interior-items{
+    width: 488px;
+    height: 214px;
+    margin-top: 46px;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    justify-content: space-between;
+    color: #9096a9;
+}
+.community li,
+.getting li,
+.resources li{
+    list-style-type: none;
+    display: flex;
+    margin: 12px;
+}
+.contenedor-pie{
+    width: 788px;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.derechos{
+    width: 241px;
+    height: 26px;
+    font-size: 10px;
+    color: #b3b7c4;
+}
+.marca{
+    width: 7px;
+    height: 7px;
+
+}
+.pie{
+    width: 342px;
+    height: 26px;
+}
+.items-pie{
+    font-size:10px;
+    color: #b3b7c4;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.iconos{
+    width: 173px;
+    height: 26px;
+    display: flex;
+    margin-left: 12px;
+    justify-content: space-around;
+}
+.x,
+.github,
+.facebook,
+.social{
+    width: 12px;
+    height: 12px;
+}

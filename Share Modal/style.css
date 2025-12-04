@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:40px ;
+    font-family: Poppins, sans-serif;
+}
+h1{
+    margin-top: 48px;
+    display: flex;
+    justify-content: left;
+}
+.contenedor{
+    width: 907px;
+    height: 682px;
+    background-color: #606265;
+    border-radius: 15px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 397px;
+    height: 256px;
+    border-radius: 10px;
+    background-color:#ebeced;
+}
+.cerrar-icono{
+    width: 14px;
+    height: 17px;
+    margin-top: 24px;
+}
+.cerrar{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px ;
+}
+.titulo{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+}
+.encabezado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 11px;
+    font-size: 12px;
+}
+.articulo{
+    font-size: 11px;
+    margin-top: 11px;
+}
+.botones{
+    width: 249px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.facebook-boton,
+.x-boton,
+.reddit-boton{
+    width: 80px;
+    height: 25px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.facebook-icono,
+.x-icono,
+.reddit-icono{
+    width: 16px;
+    height: 17px;
+    filter: invert(100%);
+}
+.facebook-boton{
+    background-color: #405896;
+    border-radius: 5px;
+    color: #ffff;
+}
+.x-boton{
+    background-color: #1da1f2;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+}
+.reddit-boton{
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+}
+.datos{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.numero{
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+.share{
+    font-size: 13px;
+
+}
+.cierre{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 14px;
+    color: #db8e6b;
+}
