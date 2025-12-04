@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.uno{
+    font-size: 50px;
+}
+.dos{
+    font-size: 25px;
+}
+.tres{
+    font-size: 40px;
+}
+.cuatro{
+    font-size: 12px;
+}
+.cinco{
+    font-size: 30px;
+}
+.seis{
+    font-size: 60px;
+}
+.siete{
+    font-size: 70px;
+}
+.ocho{
+    font-size: 55px;
+}
+.nueve{
+    font-size: 65px;
+}
+.diez{
+    font-size: 80px;
+}
